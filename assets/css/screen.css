@@ -104,13 +104,13 @@ article.preview p.readmore {
 /* === Header === */
 #blog-logo {
   display: block;
-  max-width: 120px;
+  max-width: 150px;
   margin: 50px auto 0;
   text-align: center;
 }
 #blog-logo div.bloglogo {
-  width: 120px;
-  height: 120px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   -webkit-background-size: cover !important;
   background-size: cover !important;
