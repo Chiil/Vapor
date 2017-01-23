@@ -74,7 +74,7 @@ p code {
 h1 {
   color: #151515;
   font-family: "Roboto Slab", "Merriweather", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
-  font-size: 32px;
+  font-size: 30px;
   font-weight: 400;
   line-height: 42px;
   margin: 0;
@@ -121,8 +121,8 @@ h2.blog-description {
   text-align: center;
 }
 h1.blog-title {
-  font-size: 42px;
-  line-height: 48px;
+  font-size: 38px;
+  line-height: 42px;
   margin-top: 10px;
   margin-bottom: 28px;
   padding: 0;
