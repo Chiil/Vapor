@@ -43,9 +43,9 @@ p,
 li,
 dt,
 dd {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 100;
-  line-height: 30px;
+  line-height: 28px;
 }
 dt {
   font-weight: 400;
@@ -74,7 +74,7 @@ p code {
 h1 {
   color: #151515;
   font-family: "Roboto Slab", "Merriweather", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
-  font-size: 36px;
+  font-size: 30px;
   font-weight: 400;
   line-height: 42px;
   margin: 0;
@@ -112,7 +112,6 @@ article.preview p.readmore {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  -webkit-background-size: cover !important;
   background-size: cover !important;
   background-position: center center !important;
   background-color: #ffffff;
@@ -122,8 +121,8 @@ h2.blog-description {
   text-align: center;
 }
 h1.blog-title {
-  font-size: 42px;
-  line-height: 48px;
+  font-size: 38px;
+  line-height: 42px;
   margin-top: 10px;
   margin-bottom: 28px;
   padding: 0;
@@ -224,7 +223,6 @@ div.authorimage {
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  -webkit-background-size: cover !important;
   background-size: cover !important;
   background-position: center center !important;
   margin-right: 10px;
@@ -327,10 +325,6 @@ nav.menu li {
   margin: 0 .5em;
   padding: 0;
 }
-/*
-nav.menu li:last-child {
-  margin: 0;
-}*/
 @media only screen and (min-width: 320px) and (max-width: 662px) {
   nav.menu li {
     display: block;
