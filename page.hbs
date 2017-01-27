@@ -1,7 +1,12 @@
 {{!< default}}
 
 <header id="site-head">
+    {{#if image}}
+    <a id="blog-logo" href="{{@blog.url}}"><div class="bloglogo" style="background: url({{@blog.cover}})"></div></a>
+    {{else}}
     {{#if @blog.cover}}<a id="blog-logo" href="{{@blog.url}}"><div class="bloglogo" style="background: url({{@blog.cover}})"></div></a>{{/if}}
+    {{/if}}
+
     <h1 class="blog-title"><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
     {{!> header-description}}
     {{> menu}}
