@@ -20,13 +20,6 @@
 </head>
 <body class="{{body_class}}">
 
-    <header id="site-head">
-        {{#if @blog.logo}}<a id="blog-logo" href="{{@blog.url}}"><div class="bloglogo" style="background: url({{@blog.logo}})"></div></a>{{/if}}
-        <h1 class="blog-title"><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
-        {{!> header-description}}
-        {{> menu}}
-    </header>
-
     {{{body}}}
 
     <footer class="site-footer">
