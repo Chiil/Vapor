@@ -1,8 +1,10 @@
 {{!< default}}
 
+{{#post}}
+
 <header id="site-head">
     {{#if image}}
-    <a id="blog-logo" href="{{@blog.url}}"><div class="bloglogo" style="background: url({{@blog.cover}})"></div></a>
+    <a id="blog-logo" href="{{@blog.url}}"><div class="bloglogo" style="background: url({{image}})"></div></a>
     {{else}}
     {{#if @blog.cover}}<a id="blog-logo" href="{{@blog.url}}"><div class="bloglogo" style="background: url({{@blog.cover}})"></div></a>{{/if}}
     {{/if}}
@@ -15,8 +17,6 @@
 <main class="content" role="main">
 
     <article class="{{post_class}}">
-
-        {{#post}}
 
         <header>
         {{#if tags}}<div class="post-meta tags">Posted in {{tags}}</div>{{/if}}
@@ -59,8 +59,6 @@
 
         </footer>
 
-        {{/post}}
-
         {{!> comments-disqus}}
         {{!> comments-facebook}}
         {{!> comments-google-plus}}
@@ -68,3 +66,5 @@
     </article>
 
 </main>
+
+{{/post}}
