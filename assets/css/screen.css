@@ -24,7 +24,8 @@ dt,
 dd {
   font-family: "Merriweather", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
 }
-h3 {
+h3,
+h4 {
   font-family: "Roboto Slab", "Merriweather", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
   color: #151515;
 }
