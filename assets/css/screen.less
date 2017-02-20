@@ -70,6 +70,15 @@ a:focus, a:hover {
     color: @linkColorHover;
 }
 
+ul {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    list-style-type: disc;
+    list-style-position: inside !important;
+    padding-left: 0;
+}
+
 p, li, dt, dd {
     font-size: 15px;
     font-weight: 100;
@@ -381,6 +390,13 @@ nav {
     }
     &.menu {
         margin-bottom: 2.5em;
+
+        ul {
+            -webkit-column-count: 1; /* Chrome, Safari, Opera */
+            -moz-column-count: 1; /* Firefox */
+            column-count: 1;
+        }
+
         li {
             margin: 0 .5em;
             padding: 0;
@@ -550,7 +566,7 @@ a.archive-link {
 /* Comments */
 
 #disqus_thread {
-    color: #787878; 
+    color: #787878;
 }
 
 /* Tables */
@@ -581,7 +597,7 @@ table {
 
 /* === Media Queries === */
 
-@media only screen and (min-width: 320px) and (max-width: 500px) { 
+@media only screen and (min-width: 320px) and (max-width: 500px) {
     footer section span.copyright {
         display: block
     }

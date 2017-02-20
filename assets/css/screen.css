@@ -44,6 +44,16 @@ a:focus,
 a:hover {
   color: #02090e;
 }
+ul {
+  -webkit-column-count: 2;
+  /* Chrome, Safari, Opera */
+  -moz-column-count: 2;
+  /* Firefox */
+  column-count: 2;
+  list-style-type: disc;
+  list-style-position: inside !important;
+  padding-left: 0;
+}
 p,
 li,
 dt,
@@ -330,6 +340,13 @@ nav ul li a {
 }
 nav.menu {
   margin-bottom: 2.5em;
+}
+nav.menu ul {
+  -webkit-column-count: 1;
+  /* Chrome, Safari, Opera */
+  -moz-column-count: 1;
+  /* Firefox */
+  column-count: 1;
 }
 nav.menu li {
   margin: 0 .5em;
